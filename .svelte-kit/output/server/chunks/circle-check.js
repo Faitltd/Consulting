@@ -1,0 +1,1 @@
+import{n as s,q as r,t as i}from"./index2.js";import{I as n}from"./arrow-up-right.js";function l(t,o){const e=s(o);n(t,r([{name:"circle-check"},e,{iconNode:[["circle",{cx:"12",cy:"12",r:"10"}],["path",{d:"m9 12 2 2 4-4"}]],children:c=>{c.out+="<!---->",i(c,o,"default",{}),c.out+="<!---->"},$$slots:{default:!0}}]))}export{l as C};

@@ -1,0 +1,1 @@
+import{n as e,q as s,t as i}from"./index2.js";import{I as n}from"./arrow-up-right.js";function u(r,t){const o=e(t);n(r,s([{name:"target"},o,{iconNode:[["circle",{cx:"12",cy:"12",r:"10"}],["circle",{cx:"12",cy:"12",r:"6"}],["circle",{cx:"12",cy:"12",r:"2"}]],children:c=>{c.out+="<!---->",i(c,t,"default",{}),c.out+="<!---->"},$$slots:{default:!0}}]))}export{u as T};

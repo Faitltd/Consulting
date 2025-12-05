@@ -1,0 +1,46 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/about": [
+		"src/routes/+layout.js"
+	],
+	"/case-studies": [
+		"src/routes/case-studies/+page.ts",
+		"src/routes/+layout.js"
+	],
+	"/case-studies/[slug]": [
+		"src/routes/case-studies/[slug]/+page.ts",
+		"src/routes/+layout.js"
+	],
+	"/contact": [
+		"src/routes/+layout.js"
+	],
+	"/legal/privacy-policy": [
+		"src/routes/+layout.js"
+	],
+	"/legal/terms": [
+		"src/routes/+layout.js"
+	],
+	"/resources": [
+		"src/routes/resources/+page.ts",
+		"src/routes/+layout.js"
+	],
+	"/resources/[slug]": [
+		"src/routes/resources/[slug]/+page.ts",
+		"src/routes/+layout.js"
+	],
+	"/services": [
+		"src/routes/+layout.js"
+	],
+	"/services/business-optimization": [
+		"src/routes/+layout.js"
+	],
+	"/services/process-automation": [
+		"src/routes/+layout.js"
+	],
+	"/services/waste-analysis": [
+		"src/routes/+layout.js"
+	]
+}

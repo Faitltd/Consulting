@@ -1,0 +1,437 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_CTASection.DG_vamSk.css": {
+    "file": "_app/immutable/assets/CTASection.DG_vamSk.css",
+    "src": "_CTASection.DG_vamSk.css"
+  },
+  "_CTASection.js": {
+    "file": "chunks/CTASection.js",
+    "name": "CTASection",
+    "imports": [
+      "_index2.js",
+      "_arrow-up-right.js"
+    ],
+    "css": [
+      "_app/immutable/assets/CTASection.DG_vamSk.css"
+    ]
+  },
+  "_CaseStudyCard.DfcRrpSm.css": {
+    "file": "_app/immutable/assets/CaseStudyCard.DfcRrpSm.css",
+    "src": "_CaseStudyCard.DfcRrpSm.css"
+  },
+  "_CaseStudyCard.js": {
+    "file": "chunks/CaseStudyCard.js",
+    "name": "CaseStudyCard",
+    "imports": [
+      "_index2.js",
+      "_arrow-up-right.js"
+    ],
+    "css": [
+      "_app/immutable/assets/CaseStudyCard.DfcRrpSm.css"
+    ]
+  },
+  "_ServiceCard.DIWWKWw0.css": {
+    "file": "_app/immutable/assets/ServiceCard.DIWWKWw0.css",
+    "src": "_ServiceCard.DIWWKWw0.css"
+  },
+  "_ServiceCard.js": {
+    "file": "chunks/ServiceCard.js",
+    "name": "ServiceCard",
+    "imports": [
+      "_index2.js"
+    ],
+    "css": [
+      "_app/immutable/assets/ServiceCard.DIWWKWw0.css"
+    ]
+  },
+  "_StatsGrid.Ca7MvxJV.css": {
+    "file": "_app/immutable/assets/StatsGrid.Ca7MvxJV.css",
+    "src": "_StatsGrid.Ca7MvxJV.css"
+  },
+  "_StatsGrid.js": {
+    "file": "chunks/StatsGrid.js",
+    "name": "StatsGrid",
+    "imports": [
+      "_index2.js"
+    ],
+    "css": [
+      "_app/immutable/assets/StatsGrid.Ca7MvxJV.css"
+    ]
+  },
+  "_arrow-up-right.js": {
+    "file": "chunks/arrow-up-right.js",
+    "name": "arrow-up-right",
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "_case-studies.js": {
+    "file": "chunks/case-studies.js",
+    "name": "case-studies"
+  },
+  "_chart-column.js": {
+    "file": "chunks/chart-column.js",
+    "name": "chart-column",
+    "imports": [
+      "_index2.js",
+      "_arrow-up-right.js"
+    ]
+  },
+  "_circle-check.js": {
+    "file": "chunks/circle-check.js",
+    "name": "circle-check",
+    "imports": [
+      "_index2.js",
+      "_arrow-up-right.js"
+    ]
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_index2.js",
+      "_equality.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_index2.js",
+      "_equality.js"
+    ]
+  },
+  "_map-pin.js": {
+    "file": "chunks/map-pin.js",
+    "name": "map-pin",
+    "imports": [
+      "_index2.js",
+      "_arrow-up-right.js"
+    ]
+  },
+  "_resources.js": {
+    "file": "chunks/resources.js",
+    "name": "resources"
+  },
+  "_rocket.js": {
+    "file": "chunks/rocket.js",
+    "name": "rocket",
+    "imports": [
+      "_index2.js",
+      "_arrow-up-right.js"
+    ]
+  },
+  "_target.js": {
+    "file": "chunks/target.js",
+    "name": "target",
+    "imports": [
+      "_index2.js",
+      "_arrow-up-right.js"
+    ]
+  },
+  "_workflow.js": {
+    "file": "chunks/workflow.js",
+    "name": "workflow",
+    "imports": [
+      "_index2.js",
+      "_arrow-up-right.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_index.js",
+      "_exports.js"
+    ]
+  },
+  "src/routes/+layout.js": {
+    "file": "entries/pages/_layout.js",
+    "name": "entries/pages/_layout",
+    "src": "src/routes/+layout.js",
+    "isEntry": true
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_arrow-up-right.js",
+      "_map-pin.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.DNz2MrS_.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_ServiceCard.js",
+      "_CaseStudyCard.js",
+      "_CTASection.js",
+      "_StatsGrid.js",
+      "_case-studies.js",
+      "_circle-check.js",
+      "_arrow-up-right.js",
+      "_rocket.js",
+      "_workflow.js",
+      "_chart-column.js",
+      "_target.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.ByIQ49ep.css"
+    ]
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "name": "entries/pages/about/_page.svelte",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_CTASection.js",
+      "_StatsGrid.js",
+      "_arrow-up-right.js",
+      "_workflow.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.jJKOlueX.css"
+    ]
+  },
+  "src/routes/case-studies/+page.svelte": {
+    "file": "entries/pages/case-studies/_page.svelte.js",
+    "name": "entries/pages/case-studies/_page.svelte",
+    "src": "src/routes/case-studies/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_CaseStudyCard.js",
+      "_CTASection.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BTVx4cqx.css"
+    ]
+  },
+  "src/routes/case-studies/+page.ts": {
+    "file": "entries/pages/case-studies/_page.ts.js",
+    "name": "entries/pages/case-studies/_page.ts",
+    "src": "src/routes/case-studies/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_case-studies.js"
+    ]
+  },
+  "src/routes/case-studies/[slug]/+page.svelte": {
+    "file": "entries/pages/case-studies/_slug_/_page.svelte.js",
+    "name": "entries/pages/case-studies/_slug_/_page.svelte",
+    "src": "src/routes/case-studies/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_CTASection.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CmJC33nB.css"
+    ]
+  },
+  "src/routes/case-studies/[slug]/+page.ts": {
+    "file": "entries/pages/case-studies/_slug_/_page.ts.js",
+    "name": "entries/pages/case-studies/_slug_/_page.ts",
+    "src": "src/routes/case-studies/[slug]/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_case-studies.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/contact/+page.svelte": {
+    "file": "entries/pages/contact/_page.svelte.js",
+    "name": "entries/pages/contact/_page.svelte",
+    "src": "src/routes/contact/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_CTASection.js",
+      "_map-pin.js",
+      "_arrow-up-right.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Kh0OFL6v.css"
+    ]
+  },
+  "src/routes/legal/privacy-policy/+page.svelte": {
+    "file": "entries/pages/legal/privacy-policy/_page.svelte.js",
+    "name": "entries/pages/legal/privacy-policy/_page.svelte",
+    "src": "src/routes/legal/privacy-policy/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DvWv7Ip0.css"
+    ]
+  },
+  "src/routes/legal/terms/+page.svelte": {
+    "file": "entries/pages/legal/terms/_page.svelte.js",
+    "name": "entries/pages/legal/terms/_page.svelte",
+    "src": "src/routes/legal/terms/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DvWv7Ip0.css"
+    ]
+  },
+  "src/routes/resources/+page.svelte": {
+    "file": "entries/pages/resources/_page.svelte.js",
+    "name": "entries/pages/resources/_page.svelte",
+    "src": "src/routes/resources/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BJXJ06vl.css"
+    ]
+  },
+  "src/routes/resources/+page.ts": {
+    "file": "entries/pages/resources/_page.ts.js",
+    "name": "entries/pages/resources/_page.ts",
+    "src": "src/routes/resources/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_resources.js"
+    ]
+  },
+  "src/routes/resources/[slug]/+page.svelte": {
+    "file": "entries/pages/resources/_slug_/_page.svelte.js",
+    "name": "entries/pages/resources/_slug_/_page.svelte",
+    "src": "src/routes/resources/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_CTASection.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CdGPlFft.css"
+    ]
+  },
+  "src/routes/resources/[slug]/+page.ts": {
+    "file": "entries/pages/resources/_slug_/_page.ts.js",
+    "name": "entries/pages/resources/_slug_/_page.ts",
+    "src": "src/routes/resources/[slug]/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_resources.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/services/+page.svelte": {
+    "file": "entries/pages/services/_page.svelte.js",
+    "name": "entries/pages/services/_page.svelte",
+    "src": "src/routes/services/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_CTASection.js",
+      "_ServiceCard.js",
+      "_workflow.js",
+      "_chart-column.js",
+      "_target.js",
+      "_arrow-up-right.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.kgqDVmud.css"
+    ]
+  },
+  "src/routes/services/business-optimization/+page.svelte": {
+    "file": "entries/pages/services/business-optimization/_page.svelte.js",
+    "name": "entries/pages/services/business-optimization/_page.svelte",
+    "src": "src/routes/services/business-optimization/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_CTASection.js",
+      "_arrow-up-right.js",
+      "_target.js",
+      "_circle-check.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CKPogtgz.css"
+    ]
+  },
+  "src/routes/services/process-automation/+page.svelte": {
+    "file": "entries/pages/services/process-automation/_page.svelte.js",
+    "name": "entries/pages/services/process-automation/_page.svelte",
+    "src": "src/routes/services/process-automation/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_CTASection.js",
+      "_workflow.js",
+      "_arrow-up-right.js",
+      "_rocket.js",
+      "_circle-check.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CKPogtgz.css"
+    ]
+  },
+  "src/routes/services/waste-analysis/+page.svelte": {
+    "file": "entries/pages/services/waste-analysis/_page.svelte.js",
+    "name": "entries/pages/services/waste-analysis/_page.svelte",
+    "src": "src/routes/services/waste-analysis/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_CTASection.js",
+      "_arrow-up-right.js",
+      "_workflow.js",
+      "_chart-column.js",
+      "_circle-check.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CKPogtgz.css"
+    ]
+  }
+}

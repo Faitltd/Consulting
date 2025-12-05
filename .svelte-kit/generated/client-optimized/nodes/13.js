@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/services/process-automation/+page.svelte";

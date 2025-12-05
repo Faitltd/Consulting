@@ -1,0 +1,1 @@
+import{n,q as r,t as e}from"./index2.js";import{I as c}from"./arrow-up-right.js";function h(s,o){const a=n(o);c(s,r([{name:"chart-column"},a,{iconNode:[["path",{d:"M3 3v16a2 2 0 0 0 2 2h16"}],["path",{d:"M18 17V9"}],["path",{d:"M13 17V5"}],["path",{d:"M8 17v-3"}]],children:t=>{t.out+="<!---->",e(t,o,"default",{}),t.out+="<!---->"},$$slots:{default:!0}}]))}export{h as C};
