@@ -18,14 +18,14 @@
       </p>
 
       <div class="contact-cards">
-        <a class="contact-card" href="mailto:admin@itsfait.com?subject=FAIT%20Consulting%20Inquiry">
+        <a class="contact-card" href="mailto:admin@itsfait.com?subject=30-Minute%20Consultation%20Request">
           <Mail size="18" />
           <div>
             <div class="label">Email</div>
             <div class="value">admin@itsfait.com</div>
           </div>
         </a>
-        <a class="contact-card" href="mailto:admin@itsfait.com?subject=FAIT%20Consulting%20Inquiry">
+        <a class="contact-card" href="mailto:admin@itsfait.com?subject=30-Minute%20Consultation%20Request">
           <CalendarDays size="18" />
           <div>
             <div class="label">Schedule a call</div>

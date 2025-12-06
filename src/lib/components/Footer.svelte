@@ -5,7 +5,7 @@
       <p>Systems-first consulting for small businesses. We document, automate, and optimize the processes that keep your operation running.</p>
       <a
         class="inline-link"
-        href="mailto:admin@itsfait.com?subject=FAIT%20Consulting%20Inquiry"
+        href="mailto:admin@itsfait.com?subject=30-Minute%20Consultation%20Request"
       >
         Book a consultation
       </a>
