@@ -20,12 +20,7 @@
         <h1>{service.heroTitle}</h1>
         <p class="lede">{service.heroLead}</p>
         <div class="hero-actions">
-          <a
-            class="primary"
-            href="mailto:admin@itsfait.com?subject=Book%20a%20consultation&body=Hi%2C%20I%27d%20like%20to%20schedule%20a%2030-minute%20call.%20My%20availability%20is%3A"
-          >
-            Book Consultation
-          </a>
+          <a class="primary" href="/contact#book">Book Consultation</a>
           <a class="ghost" href="mailto:admin@itsfait.com?subject=Question%20about%20services">
             Email the team
           </a>

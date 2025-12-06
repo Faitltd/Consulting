@@ -8,7 +8,7 @@
   <meta name="description" content="Contact FAIT Consulting to discuss operations, automation, and waste reduction." />
 </svelte:head>
 
-<section class="section contact-hero">
+<section class="section contact-hero" id="book">
   <div class="container hero-grid">
     <div>
       <span class="pill">Contact</span>
@@ -25,10 +25,7 @@
             <div class="value">admin@itsfait.com</div>
           </div>
         </a>
-        <a
-          class="contact-card"
-          href="mailto:admin@itsfait.com?subject=Schedule%20a%2030-minute%20consultation&body=Hi%2C%20I%27d%20like%20to%20book%20a%2030-minute%20consultation.%20My%20availability%20is%3A"
-        >
+        <a class="contact-card" href="mailto:admin@itsfait.com">
           <CalendarDays size="18" />
           <div>
             <div class="label">Schedule a call</div>
