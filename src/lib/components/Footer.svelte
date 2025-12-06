@@ -5,7 +5,7 @@
       <p>Systems-first consulting for small businesses. We document, automate, and optimize the processes that keep your operation running.</p>
       <a
         class="inline-link"
-        href="/contact#book"
+        href="mailto:admin@itsfait.com?subject=FAIT%20Consulting%20Inquiry"
       >
         Book a consultation
       </a>
@@ -32,7 +32,7 @@
     <div>
       <h4>Contact</h4>
       <div class="contact link-list">
-        <span><a href="mailto:admin@itsfait.com?subject=Question%20about%20services">admin@itsfait.com</a></span>
+        <span><a href="mailto:admin@itsfait.com?subject=FAIT%20Consulting%20Inquiry">admin@itsfait.com</a></span>
         <span>Centennial, CO</span>
       </div>
     </div>

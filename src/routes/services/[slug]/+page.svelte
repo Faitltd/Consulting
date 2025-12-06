@@ -20,8 +20,8 @@
         <h1>{service.heroTitle}</h1>
         <p class="lede">{service.heroLead}</p>
         <div class="hero-actions">
-          <a class="primary" href="/contact#book">Book Consultation</a>
-          <a class="ghost" href="mailto:admin@itsfait.com?subject=Question%20about%20services">
+          <a class="primary" href="mailto:admin@itsfait.com?subject=FAIT%20Consulting%20Inquiry">Book Consultation</a>
+          <a class="ghost" href="mailto:admin@itsfait.com?subject=FAIT%20Consulting%20Question">
             Email the team
           </a>
         </div>

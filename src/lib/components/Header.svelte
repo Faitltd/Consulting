@@ -56,7 +56,7 @@
 
       <div class="nav-cta">
         <a class="ghost-link" href="/case-studies">Results</a>
-        <a class="primary" href="/contact#book">
+        <a class="primary" href="mailto:admin@itsfait.com?subject=FAIT%20Consulting%20Inquiry">
           Book Consultation
           <ExternalLink size="16" />
         </a>
@@ -90,7 +90,7 @@
       {/each}
 
       <a class="ghost-link" href="/case-studies">Results</a>
-      <a class="primary full" href="/contact#book">
+      <a class="primary full" href="mailto:admin@itsfait.com?subject=FAIT%20Consulting%20Inquiry">
         Book Consultation
       </a>
     </div>
