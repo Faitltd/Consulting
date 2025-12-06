@@ -710,7 +710,8 @@ ol li + li {
   padding: 0;
 }
 
-.nav-links a {
+.nav-links a,
+.nav-links button {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
@@ -720,9 +721,17 @@ ol li + li {
   transition: color 0.15s ease, background 0.15s ease;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links button:hover {
   color: var(--text);
   background: rgba(255, 255, 255, 0.08);
+}
+
+.nav-links button {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
 }
 
 .has-children {
@@ -752,6 +761,12 @@ ol li + li {
   transform: translateY(0);
 }
 
+.dropdown.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 .dropdown a {
   display: block;
   padding: 0.65rem 0.75rem;
@@ -761,6 +776,11 @@ ol li + li {
 
 .dropdown a:hover {
   background: rgba(255, 255, 255, 0.08);
+}
+
+.dropdown .all-services {
+  margin-top: 0.2rem;
+  border: 1px solid var(--border);
 }
 
 .nav-cta {

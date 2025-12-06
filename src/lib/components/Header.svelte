@@ -1,8 +1,10 @@
 <script lang="ts">
   import { ChevronDown, ExternalLink, Menu, X } from 'lucide-svelte';
+  import { afterNavigate } from '$app/navigation';
   import { services } from '$lib/content/services';
 
   let mobileOpen = false;
+  let servicesOpen = false;
 
   const navLinks = [
     { href: '/case-studies', label: 'Case Studies' },
@@ -10,6 +12,14 @@
     { href: '/about', label: 'About' },
     { href: '/contact', label: 'Contact' }
   ];
+
+  const toggleServices = () => (servicesOpen = !servicesOpen);
+  const closeServices = () => (servicesOpen = false);
+
+  afterNavigate(() => {
+    servicesOpen = false;
+    mobileOpen = false;
+  });
 </script>
 
 <header class="header">
@@ -18,14 +28,23 @@
     <nav class="nav">
       <ul class="nav-links">
         <li class="has-children">
-          <a href="/services">
-            <span>Services</span>
-            <ChevronDown size="16" />
-          </a>
-          <div class="dropdown">
-            {#each services as service}
-              <a href={`/services/${service.slug}`}>{service.name}</a>
-            {/each}
+          <div class="services-wrapper" role="group" aria-label="Services menu">
+            <button
+              type="button"
+              class="parent-link"
+              aria-haspopup="true"
+              aria-expanded={servicesOpen}
+              on:click={toggleServices}
+            >
+              <span>Services</span>
+              <ChevronDown size="16" />
+            </button>
+            <div class="dropdown" class:open={servicesOpen}>
+              {#each services as service}
+                <a href={`/services/${service.slug}`} on:click={closeServices}>{service.name}</a>
+              {/each}
+              <a class="all-services" href="/services" on:click={closeServices}>View all services</a>
+            </div>
           </div>
         </li>
         {#each navLinks as link}
