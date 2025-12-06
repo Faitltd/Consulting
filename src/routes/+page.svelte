@@ -35,10 +35,10 @@
     <div class="hero-visual" aria-hidden="true">
       <img
         class="hero-img"
-        src="/images/Fait%20Consulting.jpg?v=3"
+        src="/images/Fait%20Consulting.jpg?v=4"
         alt="Consultant presenting results to executives"
         fetchpriority="high"
-        style={`object-position: center 37%; transform: translateY(${parallax * -0.15}px);`}
+        style={`transform: translateY(${parallax * -0.15}px);`}
       />
     </div>
     <div class="container hero-grid">
