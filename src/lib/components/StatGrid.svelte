@@ -1,5 +1,5 @@
 <script lang="ts">
-  export type Stat = { value: string; label: string; body?: string };
+  type Stat = { value: string; label: string; body?: string };
   export let stats: Stat[] = [];
 </script>
 

@@ -1,19 +1,18 @@
 <script lang="ts">
-  import * as icons from 'lucide-svelte';
+  import type { ComponentType } from 'svelte';
+  import { Workflow } from 'lucide-svelte';
 
-  export let name: string;
-  export let summary: string;
+  export let title: string;
+  export let description: string;
   export let href: string;
-  export let icon = 'Workflow';
-
-  const Icon = (icons as Record<string, typeof icons.Workflow>)[icon] || icons.Workflow;
+  export let icon: ComponentType = Workflow;
 </script>
 
-<a class="service-card" href={href}>
+<a class="service-card" href={href} aria-label={`Learn more about ${title}`}>
   <div class="icon-wrapper">
-    <svelte:component this={Icon} width="40" height="40" stroke-width="1.5" />
+    <svelte:component this={icon} width="40" height="40" stroke-width="1.5" />
   </div>
-  <h3>{name}</h3>
-  <p>{summary}</p>
-  <span class="learn-more">Learn more -></span>
+  <h3>{title}</h3>
+  <p>{description}</p>
+  <span class="learn-more">Learn more about {title} -></span>
 </a>
