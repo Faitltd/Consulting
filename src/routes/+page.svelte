@@ -50,7 +50,9 @@
           highest-value processes in your operation.
         </p>
         <div class="hero-actions">
-          <a class="primary" href="mailto:admin@itsfait.com" target="_blank" rel="noreferrer">Book Consultation</a>
+          <a class="primary" href="mailto:admin@itsfait.com?subject=Book%20a%20consultation&body=Hi%2C%20I%27d%20like%20to%20schedule%20a%2030-minute%20call.%20My%20availability%20is%3A">
+            Book Consultation
+          </a>
           <a class="ghost" href="/case-studies">View case studies</a>
         </div>
         <div class="hero-points">

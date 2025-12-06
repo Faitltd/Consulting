@@ -25,7 +25,10 @@
             <div class="value">admin@itsfait.com</div>
           </div>
         </a>
-        <a class="contact-card" href="mailto:admin@itsfait.com" target="_blank" rel="noreferrer">
+        <a
+          class="contact-card"
+          href="mailto:admin@itsfait.com?subject=Schedule%20a%2030-minute%20consultation&body=Hi%2C%20I%27d%20like%20to%20book%20a%2030-minute%20consultation.%20My%20availability%20is%3A"
+        >
           <CalendarDays size="18" />
           <div>
             <div class="label">Schedule a call</div>

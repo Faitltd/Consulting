@@ -56,7 +56,7 @@
 
       <div class="nav-cta">
         <a class="ghost-link" href="/case-studies">Results</a>
-        <a class="primary" href="mailto:admin@itsfait.com" target="_blank" rel="noreferrer">
+        <a class="primary" href="mailto:admin@itsfait.com?subject=Book%20a%20consultation&body=Hi%2C%20I%27d%20like%20to%20schedule%20a%2030-minute%20call.%20My%20availability%20is%3A">
           Book Consultation
           <ExternalLink size="16" />
         </a>
@@ -90,7 +90,10 @@
       {/each}
 
       <a class="ghost-link" href="/case-studies">Results</a>
-      <a class="primary full" href="mailto:admin@itsfait.com" target="_blank" rel="noreferrer">
+      <a
+        class="primary full"
+        href="mailto:admin@itsfait.com?subject=Book%20a%20consultation&body=Hi%2C%20I%27d%20like%20to%20schedule%20a%2030-minute%20call.%20My%20availability%20is%3A"
+      >
         Book Consultation
       </a>
     </div>

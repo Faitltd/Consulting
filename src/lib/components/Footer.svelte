@@ -3,7 +3,10 @@
     <div class="brand">
       <div class="brand-mark">FAIT Consulting</div>
       <p>Systems-first consulting for small businesses. We document, automate, and optimize the processes that keep your operation running.</p>
-      <a class="inline-link" href="mailto:admin@itsfait.com" target="_blank" rel="noreferrer">
+      <a
+        class="inline-link"
+        href="mailto:admin@itsfait.com?subject=Book%20a%20consultation&body=Hi%2C%20I%27d%20like%20to%20schedule%20a%2030-minute%20call.%20My%20availability%20is%3A"
+      >
         Book a consultation
       </a>
     </div>
@@ -29,7 +32,7 @@
     <div>
       <h4>Contact</h4>
       <div class="contact link-list">
-        <span><a href="mailto:admin@itsfait.com">admin@itsfait.com</a></span>
+        <span><a href="mailto:admin@itsfait.com?subject=Question%20about%20services">admin@itsfait.com</a></span>
         <span>Centennial, CO</span>
       </div>
     </div>
