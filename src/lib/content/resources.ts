@@ -1,0 +1,110 @@
+export type Resource = {
+  slug: 'build-ops-playbook' | 'automation-scorecard' | 'handoff-checklist';
+  title: string;
+  date: string;
+  summary: string;
+  tags: string[];
+  sections: { title: string; bullets: string[] }[];
+  ctaPill: string;
+  ctaTitle: string;
+  ctaBody: string;
+};
+
+export const resources: Resource[] = [
+  {
+    slug: 'build-ops-playbook',
+    title: 'How to Build an Operations Playbook in 7 Days',
+    date: '2025-01-15',
+    summary: 'A lightweight approach to documenting processes, roles, and exceptions without slowing the team down.',
+    tags: ['operations', 'playbooks', 'documentation'],
+    sections: [
+      {
+        title: 'Start with outcomes',
+        bullets: [
+          'Pick one workflow that impacts revenue or quality and define what "good" looks like.',
+          'List the actors, inputs, outputs, and exceptions so you know where things go wrong.'
+        ]
+      },
+      {
+        title: 'Document the path',
+        bullets: [
+          'Use a simple step-by-step outline with owners and SLAs. Avoid flowchart sprawl to start.',
+          'Capture links to templates, forms, and tools in one place so the playbook is the source of truth.'
+        ]
+      },
+      {
+        title: 'Stabilize then automate',
+        bullets: [
+          'Fix missing inputs and approvals before wiring automation. Otherwise you automate the chaos.',
+          'Pilot with one team, gather feedback, and only then add triggers and alerts.'
+        ]
+      }
+    ],
+    ctaPill: 'Need help implementing this?',
+    ctaTitle: 'Turn the playbook into a working system',
+    ctaBody: 'We can help document the workflow, add guardrails, and automate the highest-value steps.'
+  },
+  {
+    slug: 'automation-scorecard',
+    title: 'The Small Business Automation Scorecard',
+    date: '2025-02-02',
+    summary: 'Score each workflow by effort, impact, and risk to prioritize your first automation wins.',
+    tags: ['automation', 'prioritization', 'frameworks'],
+    sections: [
+      {
+        title: 'Score by impact',
+        bullets: [
+          'Estimate hours saved, error reduction, and speed gains. If you cannot quantify, keep it small.',
+          'Look for compound value: tasks that unblock downstream work or improve data quality.'
+        ]
+      },
+      {
+        title: 'Score by effort',
+        bullets: [
+          'Consider data availability, edge cases, and required approvals. Avoid brittle automations first.',
+          'Prefer changes inside existing tools to reduce adoption friction.'
+        ]
+      },
+      {
+        title: 'Pick the first three',
+        bullets: [
+          'Choose one quick win, one medium lift, and one foundational fix (like clean data inputs).',
+          'Ship them in order and reassess your backlog as you learn.'
+        ]
+      }
+    ],
+    ctaPill: 'Need help implementing this?',
+    ctaTitle: 'Turn the playbook into a working system',
+    ctaBody: 'We can help document the workflow, add guardrails, and automate the highest-value steps.'
+  },
+  {
+    slug: 'handoff-checklist',
+    title: 'Handoff Checklist to Stop Work-from-Stalling',
+    date: '2024-12-10',
+    summary: 'A 10-point checklist to tighten handoffs between sales, ops, and delivery teams.',
+    tags: ['handoffs', 'process', 'quality'],
+    sections: [
+      {
+        title: 'Define the trigger',
+        bullets: ['Specify exactly when the handoff starts and what must be true. Example: "Signed SOW and deposit collected."']
+      },
+      {
+        title: 'List required inputs',
+        bullets: [
+          'Owner, due date, scope, constraints, and links to assets. Make fields required in your system of record.',
+          'Reject handoffs without inputs to avoid rework later.'
+        ]
+      },
+      {
+        title: 'Confirm receipt',
+        bullets: [
+          'Use an automated acknowledgement with owner + expected delivery date.',
+          'Escalate if the acknowledgement is not sent within your SLA.'
+        ]
+      }
+    ],
+    ctaPill: 'Need help implementing this?',
+    ctaTitle: 'Turn the playbook into a working system',
+    ctaBody: 'We can help document the workflow, add guardrails, and automate the highest-value steps.'
+  }
+];

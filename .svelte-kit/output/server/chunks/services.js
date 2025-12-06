@@ -1,0 +1,152 @@
+const services = [
+  {
+    slug: "process-automation",
+    name: "Process Automation",
+    summary: "Automate repetitive work, standardize handoffs, and connect your tools so teams move faster.",
+    heroTitle: "Automate the repeatable. Keep humans where it counts.",
+    heroLead: "We design, document, and automate your core workflows so your team stops chasing status and starts shipping work.",
+    summaryTitle: "What we build",
+    summaryPoints: [
+      "Trigger-based workflows across your existing tools.",
+      "Approvals and checklists that are hard to skip.",
+      "Alerts and dashboards for throughput and cycle time."
+    ],
+    tag: "First win in 3 weeks or less.",
+    who: [
+      "Teams stuck in spreadsheets, email approvals, or chat for critical steps.",
+      "Owners wearing too many hats and needing reliable delegation.",
+      "Growing ops that need a clear way to track work across tools.",
+      "Service businesses that want consistent delivery without slowing down."
+    ],
+    problems: [
+      "Manual data entry across multiple apps and no single source of truth.",
+      "Handoffs hidden in email or chat with no visibility into status.",
+      "Approvals and checklists are inconsistent and easy to skip.",
+      "Reporting is painful because data is scattered or missing."
+    ],
+    deliverables: [
+      "Documented workflows with owners, inputs, outputs, and exceptions.",
+      "Automated triggers, routing, and reminders across your existing tools.",
+      "Approval and checklist flows with auditability and notifications.",
+      "Dashboards for throughput, cycle time, and bottlenecks.",
+      "A playbook and training so your team can own and iterate."
+    ],
+    outcomes: [
+      "Hours returned to the team each week through reduced manual work.",
+      "Clear ownership and visibility so nothing sits in limbo.",
+      "Lower error rates and rework with standardized handoffs.",
+      "Faster cycle times from quote-to-cash or ticket-to-resolution."
+    ],
+    faq: [
+      { question: "Do you replace our tools?", answer: "No. We start with what you use today and only recommend changes if there is a clear ROI." },
+      { question: "How long until we see results?", answer: "Most teams ship the first automation or checklist update within 2-3 weeks." },
+      {
+        question: "Who needs to be involved?",
+        answer: "We work with the ops owner and at least one frontline teammate to validate the workflow."
+      }
+    ]
+  },
+  {
+    slug: "waste-analysis",
+    name: "Waste Analysis",
+    summary: "Identify bottlenecks, duplicate data entry, and slow approvals to reclaim capacity and cash.",
+    heroTitle: "Find the friction. Remove it without breaking flow.",
+    heroLead: "We map how work moves today, quantify the waste, and implement fixes that free up capacity fast.",
+    summaryTitle: "What we uncover",
+    summaryPoints: [
+      "Bottlenecks hidden in handoffs and approvals.",
+      "Duplicate steps and manual workarounds.",
+      "Costs and cycle times that need tracking."
+    ],
+    tag: "Ranked backlog with cost and effort notes.",
+    who: [
+      "Operators who want to know where time and money are disappearing.",
+      "Teams with long cycle times between steps and unclear ownership.",
+      "Leaders preparing for growth and needing confident, scalable processes.",
+      "Organizations that rely on tribal knowledge instead of documented flows."
+    ],
+    problems: [
+      "Duplicate data entry across systems with mismatched fields.",
+      "Handoffs that stall because inputs are incomplete or unclear.",
+      "Shadow processes that bypass controls and create rework.",
+      "No single view of throughput, capacity, and costs."
+    ],
+    deliverables: [
+      "A current-state map of your critical workflows and systems.",
+      "A prioritized waste backlog ranked by impact, effort, and risk.",
+      "Quick fixes shipped first: checklists, routing rules, and SLA guardrails.",
+      "A lightweight dashboard for throughput, cycle time, and blockers.",
+      "Recommendations for deeper automation where ROI is clear."
+    ],
+    outcomes: [
+      "Reduced operating costs and admin time across teams.",
+      "Clear owners and inputs for every handoff to prevent stalls.",
+      "Less rework and cleaner data for reporting and forecasting.",
+      "A roadmap for automation with measurable checkpoints."
+    ],
+    faq: [
+      {
+        question: "Do you need access to financials?",
+        answer: "Only where it helps quantify waste. We can work with summaries if detailed access is sensitive."
+      },
+      {
+        question: "What does a quick win look like?",
+        answer: "Examples: standardized intake, automated status updates, or routing rules that remove manual triage."
+      },
+      { question: "Will this slow down the team?", answer: "No. We run short working sessions and ship changes incrementally so teams feel the benefits quickly." }
+    ]
+  },
+  {
+    slug: "business-optimization",
+    name: "Business Optimization",
+    summary: "Align pricing, capacity, and delivery with a repeatable playbook that scales without chaos.",
+    heroTitle: "Turn delivery into a repeatable product.",
+    heroLead: "We align pricing, capacity, and delivery with a clear playbook so projects stay profitable and clients get consistent outcomes.",
+    summaryTitle: "What we design",
+    summaryPoints: [
+      "Pricing and scope templates with guardrails.",
+      "Delivery playbook with SLAs and approvals.",
+      "Capacity and utilization visibility you can trust."
+    ],
+    tag: "Aligned incentives across sales and delivery.",
+    who: [
+      "Service businesses that need consistent pricing and scope guardrails.",
+      "Teams adding headcount and wanting a repeatable way to onboard and deliver.",
+      "Operators who need visibility into capacity, utilization, and margins.",
+      "Leaders who want delivery to feel like a product with clear standards."
+    ],
+    problems: [
+      "Custom, one-off scopes that cause scope creep and profit leakage.",
+      "Unclear roles and approvals leading to rework and client churn.",
+      "No visibility into capacity, making scheduling and hiring reactive.",
+      "KPIs tracked manually or not at all."
+    ],
+    deliverables: [
+      "Pricing and scope templates with change control built in.",
+      "Capacity model and delivery calendar for resource planning.",
+      "Delivery playbook with roles, SLAs, and escalation paths.",
+      "Operational dashboards to monitor utilization and margin.",
+      "Coaching and workshops to embed the new way of working."
+    ],
+    outcomes: [
+      'More predictable margins with fewer "specials."',
+      "Confident handoffs between sales, ops, and delivery.",
+      "Clear readiness signals for hiring or contracting.",
+      "Clients experience consistent quality across projects."
+    ],
+    faq: [
+      {
+        question: "Do you replace our PM or billing tools?",
+        answer: "Not unless they block success. We start with your stack and add structure around it first."
+      },
+      {
+        question: "How do you handle team adoption?",
+        answer: "We co-design with leads, run lightweight pilots, and provide templates and training to make adoption easy."
+      },
+      { question: "Can you help with reporting?", answer: "Yes. We set up the metrics and lightweight dashboards needed to track utilization, margin, and delivery health." }
+    ]
+  }
+];
+export {
+  services as s
+};
