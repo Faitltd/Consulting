@@ -221,7 +221,7 @@ ol li + li {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 85%;
   filter: saturate(1.02);
 }
 
