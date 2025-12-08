@@ -5,19 +5,6 @@
   import StatGrid from '$lib/components/StatGrid.svelte';
   import CTASection from '$lib/components/CTASection.svelte';
 
-  import { onMount } from 'svelte';
-
-  let parallax = 0;
-
-  onMount(() => {
-    const handleScroll = () => {
-      parallax = window.scrollY;
-    };
-    handleScroll();
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  });
-
   const stats = [
     { value: '50+', label: 'Processes documented', body: 'Across trades and professional services.' },
     { value: '30%+', label: 'Cost reduction', body: 'Typical waste removed from admin time.' },
@@ -32,15 +19,6 @@
 
 <main class="page-shell">
   <section class="section hero">
-    <div class="hero-visual" aria-hidden="true">
-      <img
-        class="hero-img"
-        src="/images/Fait%20Consulting.jpg?v=4"
-        alt="Consultant presenting results to executives"
-        fetchpriority="high"
-        style={`transform: translateY(${parallax * -0.15}px);`}
-      />
-    </div>
     <div class="container hero-grid">
       <div class="hero-copy">
         <span class="pill">Operations / Automation / Waste Reduction</span>
