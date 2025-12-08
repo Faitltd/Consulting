@@ -5,6 +5,9 @@ const config = {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter(),
+    paths: {
+      relative: false
+    },
     prerender: { entries: ['*'] }
   }
 };
