@@ -1,7 +1,16 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import { CalendarDays, Mail, MapPin, MessageSquare, PhoneCall } from 'lucide-svelte';
   import { page } from '$app/stores';
   import CTASection from '$lib/components/CTASection.svelte';
+
+  let formEl: HTMLFormElement | null = null;
+
+  onMount(() => {
+    if ($page.url.searchParams.get('success') === '1') {
+      formEl?.reset();
+    }
+  });
 </script>
 
 <svelte:head>
@@ -50,6 +59,7 @@
         class="contact-form"
         method="POST"
         action="https://formspree.io/f/mvzpzbrv"
+        bind:this={formEl}
       >
         <input type="text" name="name" placeholder="Your name" autocomplete="name" required />
         <input type="email" name="email" placeholder="Work email" autocomplete="email" required />
