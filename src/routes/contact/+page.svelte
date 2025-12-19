@@ -14,7 +14,7 @@
       <span class="pill">Contact</span>
       <h1>Tell us about your operations.</h1>
       <p class="lede">
-        We do not use a contact form or CRM. Reach out directly and we will set up a working session.
+        Send a quick note and we will set up a working session.
       </p>
 
       <div class="contact-cards">
@@ -40,6 +40,20 @@
           </div>
         </div>
       </div>
+
+      <form
+        class="contact-form"
+        method="POST"
+        action="https://formspree.io/f/mvzpzbrv"
+      >
+        <input type="text" name="name" placeholder="Your name" autocomplete="name" required />
+        <input type="email" name="email" placeholder="Work email" autocomplete="email" required />
+        <input type="text" name="company" placeholder="Company (optional)" autocomplete="organization" />
+        <textarea name="message" rows="5" placeholder="What can we help with?" required></textarea>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hidden" />
+        <input type="hidden" name="_subject" value="FAIT Consulting contact request" />
+        <button class="primary" type="submit">Send message</button>
+      </form>
     </div>
 
     <div class="content-card">
