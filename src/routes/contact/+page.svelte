@@ -1,5 +1,6 @@
 <script lang="ts">
   import { CalendarDays, Mail, MapPin, MessageSquare, PhoneCall } from 'lucide-svelte';
+  import { page } from '$app/stores';
   import CTASection from '$lib/components/CTASection.svelte';
 </script>
 
@@ -16,6 +17,10 @@
       <p class="lede">
         Send a quick note and we will set up a working session.
       </p>
+
+      {#if $page.url.searchParams.get('success') === '1'}
+        <div class="contact-success">Thanks! Your message is on its way.</div>
+      {/if}
 
       <div class="contact-cards">
         <a class="contact-card" href="mailto:admin@itsfait.com?subject=30-Minute%20Consultation%20Request">
@@ -52,6 +57,7 @@
         <textarea name="message" rows="5" placeholder="What can we help with?" required></textarea>
         <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hidden" />
         <input type="hidden" name="_subject" value="FAIT Consulting contact request" />
+        <input type="hidden" name="_next" value="https://consulting.itsfait.com/contact?success=1" />
         <button class="primary" type="submit">Send message</button>
       </form>
     </div>
