@@ -1,28 +1,7 @@
 <script lang="ts">
   import { CalendarDays, Mail, MapPin, MessageSquare, PhoneCall } from 'lucide-svelte';
+  import { page } from '$app/stores';
   import CTASection from '$lib/components/CTASection.svelte';
-
-  let formEl: HTMLFormElement | null = null;
-  let status: 'idle' | 'sending' | 'success' | 'error' = 'idle';
-
-  const submitForm = async () => {
-    if (!formEl || status === 'sending') return;
-    status = 'sending';
-    try {
-      const response = await fetch(formEl.action, {
-        method: 'POST',
-        body: new FormData(formEl),
-        headers: { Accept: 'application/json' }
-      });
-      if (!response.ok) {
-        throw new Error('Form submission failed');
-      }
-      status = 'success';
-      formEl.reset();
-    } catch (error) {
-      status = 'error';
-    }
-  };
 </script>
 
 <svelte:head>
@@ -39,11 +18,8 @@
         Send a quick note and we will set up a working session.
       </p>
 
-      {#if status === 'success'}
+      {#if $page.url.searchParams.get('success') === '1'}
         <div class="contact-success">Thanks! Your message is on its way.</div>
-      {/if}
-      {#if status === 'error'}
-        <div class="contact-error">Something went wrong. Please try again or email us directly.</div>
       {/if}
 
       <div class="contact-cards">
@@ -74,18 +50,15 @@
         class="contact-form"
         method="POST"
         action="https://formspree.io/f/mvzpzbrv"
-        bind:this={formEl}
-        on:submit|preventDefault={submitForm}
       >
         <input type="text" name="name" placeholder="Your name" autocomplete="name" required />
-        <input type="email" name="email" placeholder="Work email" autocomplete="email" required />
+        <input type="email" name="_replyto" placeholder="Work email" autocomplete="email" required />
         <input type="text" name="company" placeholder="Company (optional)" autocomplete="organization" />
         <textarea name="message" rows="5" placeholder="What can we help with?" required></textarea>
         <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hidden" />
         <input type="hidden" name="_subject" value="FAIT Consulting contact request" />
-        <button class="primary" type="submit" disabled={status === 'sending'}>
-          {status === 'sending' ? 'Sending...' : 'Send message'}
-        </button>
+        <input type="hidden" name="_next" value="https://consulting.itsfait.com/contact?success=1#book" />
+        <button class="primary" type="submit">Send message</button>
       </form>
     </div>
 

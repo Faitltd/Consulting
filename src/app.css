@@ -1220,9 +1220,10 @@ img {
   width: 100%;
   border-radius: 12px;
   border: 1px solid var(--border);
-  background: #0f1723;
+  background: var(--bg-800);
   padding: 0.85rem 1rem;
   color: var(--text);
+  caret-color: var(--accent);
   font: inherit;
 }
 
@@ -1235,6 +1236,12 @@ img {
 .contact-form textarea:focus {
   outline: 2px solid #2ec5d31f;
   border-color: var(--accent);
+}
+
+.contact-form input:-webkit-autofill,
+.contact-form textarea:-webkit-autofill {
+  box-shadow: 0 0 0 1000px var(--bg-800) inset;
+  -webkit-text-fill-color: var(--text);
 }
 
 .contact-form .hidden {
