@@ -70,7 +70,7 @@ jobs:
           SSH_PORT: ${{ secrets.SSH_PORT }}
 
       - name: Reload Caddy
-        if: ${{ secrets.CADDY_CONTAINER != '' }}
+        if: ${{ env.CADDY_CONTAINER != '' }}
         run: |
           PORT="${SSH_PORT:-22}"
           ssh -p "$PORT" "$SSH_USER@$SSH_HOST" "docker exec $CADDY_CONTAINER caddy reload --config /etc/caddy/Caddyfile"
