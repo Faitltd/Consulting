@@ -1,7 +1,13 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import { CalendarDays, Mail, MapPin, MessageSquare, PhoneCall } from 'lucide-svelte';
-  import { page } from '$app/stores';
   import CTASection from '$lib/components/CTASection.svelte';
+
+  let showSuccess = false;
+
+  onMount(() => {
+    showSuccess = new URLSearchParams(window.location.search).get('success') === '1';
+  });
 </script>
 
 <svelte:head>
@@ -18,7 +24,7 @@
         Send a quick note and we will set up a working session.
       </p>
 
-      {#if $page.url.searchParams.get('success') === '1'}
+      {#if showSuccess}
         <div class="contact-success">Thanks! Your message is on its way.</div>
       {/if}
 
